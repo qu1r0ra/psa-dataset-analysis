@@ -25,14 +25,14 @@ A high-level overview of the repository organization:
 
 ```text
 .
-├── assets/             # Project poster and other visual assets
-├── data/               # FIES 2012 dataset files
-├── docs/               # Machine project specifications and documentation
-├── src/                # Modular Python scripts backing the analysis
-│   ├── constants.py    # Dict mappings for categories and lists
-│   ├── preprocessing.py# Data cleaning and type conversion functions
-│   └── visualizations.py# Generators for charts and summary tables
-├── fie-analysis.ipynb  # Frontline Jupyter Notebook containing full EDA
-├── pyproject.toml      # uv setup configuration
-└── uv.lock             # uv lockfile for Python dependency management
+├── assets/                  # Project poster and other visual assets
+├── data/                    # FIES 2012 dataset files
+├── docs/                    # Machine project specifications and documentation
+├── src/                     # Modular Python scripts backing the analysis
+│   ├── constants.py         # Dict mappings for categories and lists
+│   ├── preprocessing.py     # Data cleaning and type conversion functions
+│   └── visualizations.py    # Generators for charts and summary tables
+├── fie-analysis.ipynb       # Frontline Jupyter Notebook containing full EDA
+├── pyproject.toml           # uv setup configuration
+└── uv.lock                  # uv lockfile for Python dependency management
 ```
